@@ -1,0 +1,29 @@
+  <tr>
+        <th><input type="text" name="skill_<%= idx %>" class="input_type_5 nm"  /></th>
+        <td>
+            <select name="skill_yr_exp_<%= idx %>" class="select_type_4 nm">
+                <option>--- select ---</option>
+                <option>less than 1 year</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>more than 5 year</option>
+            </select>
+        </td>
+        <td>
+            <select name="skill_prof_lvl_<%= idx %>" class="select_type_4 nm">
+                 <option>--- select ---</option>
+                <option>beginner</option>
+                <option>intermediate</option>
+                <option>advance</option>
+                <option>professional</option>
+            </select>
+        </td>
+        <td>
+            <a href="javascript:void(0)" class="remove_skills">
+                <img src="<%= asset_url %>site/images/btn_remove.png" />
+            </a>
+        </td>
+    </tr>

@@ -1,0 +1,18 @@
+
+<% if(message == 1) {%>
+<p>Are you sure you want to save this data?</p>
+
+<div class="btn_div">
+    <a href="#" id="open_refferal" class="btn btn_type_3 btn_space"><span>Continue</span></a>
+    <a href="javascript:$('.ui-dialog-content').dialog('close');" class="btn btn_type_3"><span>Cancel</span></a>
+</div>
+
+<% }else{ %>
+<p>Application saved.</p>
+
+<div class="btn_div">
+    <a href="#" id="application_complete" class="btn btn_type_3"><span>Close</span></a>
+</div>
+
+
+<% }; %>

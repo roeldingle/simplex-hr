@@ -1,0 +1,114 @@
+/* TABLES */
+/* TABLE STYLES */
+
+.tstyle_1{width:100%;border-spacing:0px;border:2px solid #aeb3b6;border-collapse:collapse;}
+.tstyle_1 th,.tstyle_1 td{padding:8px;border:1px solid #aeb3b6;}
+
+.tstyle_2{width:100%;border-spacing:0px;border-collapse:collapse;}
+.tstyle_2 th,.tstyle_2 td{padding:8px;}
+
+.tstyle_3{width:100%;border-spacing:0px;border:1px solid #aeb3b6;border-collapse:collapse;}
+.tstyle_3 tr{border:1px solid #aeb3b6;}
+.tstyle_3 th,.tstyle_3 td{padding:8px;}
+.tstyle_3 a{color:#0070c0;text-decoration:underline}
+
+.tstyle_4{width:100%;border-spacing:0px;border:1px solid #aeb3b6;border-collapse:collapse;}
+.tstyle_4 th,.tstyle_4 td{padding:8px;}
+.tstyle_4 tr{background:#F2F2F2;border:1px solid #fff;}
+.tstyle_4 thead tr{background:#dbdbdb;border-bottom:3px solid #fff;}
+
+.tstyle_5{width:100%;border-spacing:0px;border:1px solid #aeb3b6;border-collapse:collapse;}
+.tstyle_5 th,.tstyle_5 td{padding:8px;border:1px solid #fff;}
+.tstyle_5 tr{background:#F2F2F2}
+.tstyle_5 thead th,.tstyle_5 thead td{padding:10px;}
+.tstyle_5 thead tr{background:#dbdbdb;border-bottom:3px solid #fff;}
+
+.tstyle_6{width:100%;border-spacing:0px;border:1px solid #aeb3b6;border-collapse:collapse;}
+.tstyle_6 th,.tstyle_6 td{padding:8px;border:1px solid #fff;}
+.tstyle_6 thead td,.tstyle_6 thead th{padding:10px;}
+.tstyle_6 thead tr{border-bottom:3px solid #fff;background:#DBDBDB}
+
+table.hover_1 tbody tr:hover td{color:#333;background:#f2f2f2}
+table.hover_2 tbody tr:hover td{color:#333;background:#fff}
+
+/* TABLE BORDERS */
+.tborder_1{border:2px solid #aeb3b6;}
+.tborder_2{border:1px solid #aeb3b6;}
+.tborder_2 th,.tborder_2 td{border:1px solid #aeb3b6;}
+.tborder_3{border:none;}
+.tborder_4 td, .tborder_4 th{border:1px solid #fff;}
+.tborder_4 tr{border:2px solid #fff;}
+.tborder_5 td, .tborder_5 th{border:none;}
+.tborder_6{border:1px solid #333}
+
+/* TABLE BACKGROUNDS */
+
+.tbground_1{background:#333;color:#fff}
+.tbground_2{background:#dbdbdb}
+.tbground_3{background:#f2f2f2}
+.tbground_4{background:#ffe65d}
+.tbground_5{background:#d9d9d9}
+.tbground_6{background:#c5d9f1}
+.tbground_7{background:#dce6f1}
+.tbground_8{background:#fff}
+
+.tbground_9{background:#FDFF72}
+.tbground_10{background:#DDF5D5}
+.tbground_11{background:#CB8AFF}
+.tbground_12{background:#C5C5C5}
+
+.tbground_1 a{color:#fff}
+.tbground_1 a:hover{text-decoration:underline}
+
+thead.tbground_2, thead.tbground_2 a{color:#333}
+
+/* TABLE HOVERS */
+
+table.hover_1 tbody tr:hover td{color:#333;background:#f2f2f2}
+table.hover_2 tbody tr:hover td{color:#333;background:#fff}
+
+/* FONTS */
+.tfonts_1{font-size:13px}
+.tfonts_2{font-weight:bold}
+.tfonts_3{color:#888}
+.tfonts_4{color:#333}
+.tfonts_5,.tfonts_5 th,.tfonts_5 td{font-weight:normal}
+.tfonts_6{color:#ff0000}
+.tfonts_7{color:#0070c0}
+
+a.tfonts_7 span{color:#0070c0;text-decoration:underline}
+a.tfonts_6 span{color:#ff0000;text-decoration:underline}
+
+span.edit{display:inline-block;float:right}
+span.edit a, span.edit a{color:#ffe65d;font-size:10px}
+
+/* table wraps */
+.table_wrap_1{border:5px solid #ccc;overflow:auto;white-space:nowrap;position:relative;z-index:1;padding:5px;height:1%;margin:5px 0}
+.table_wrap_2{border:1px solid #ccc;overflow:auto;white-space:nowrap;position:relative;z-index:1;padding:5px;height:1%;margin:5px 0}
+.table_wrap_3{width:100%;display:inline-block;margin:5px 0}
+.table_fl_50{float:left;width:48%;margin:5px 0}
+.table_fr_50{float:right;width:48%;margin:5px 0}
+.table_fl_30{float:left;width:31%;margin:5px 0}
+.table_fr_30{float:right;width:31%;margin:5px 0}
+
+/* SORT LINKS */
+ul.sort_links{display:inline-block;list-style:none;margin:5px 0;padding:0}
+ul.sort_links li{display:block;float:left;padding:0 7px 0 6px;background: url(../images/line_sort_links.jpg) no-repeat right center}
+ul.sort_links li a span{color:#888;}
+ul.sort_links li.first{padding-left:0;}
+ul.sort_links li.last{background:none;}
+
+.twidth_1{width:80px;}
+.twidth_2{width:100%;}
+.twidth_3{width:150px;}
+.twidth_4{width:30px;}
+.twidth_5{width:85px;}
+
+.label_1{display:inline-block;width:85px}
+.label_2{display:inline-block;}
+
+/* ORDER_BY */
+a.descending, a.ascending{display:inline-block;padding:0 15px 0 0;}
+a.descending, a.ascending:hover{background:transparent url(../images/orderby_down.png) no-repeat right center}
+a.ascending, a.descending:hover{background:transparent url(../images/orderby_up.png) no-repeat right center}
+a.ascending:hover, a.descending:hover{text-decoration:underline;}

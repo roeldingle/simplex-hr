@@ -1,0 +1,386 @@
+<% for(var i = 0; i < rows.length; i++){ %>
+   <% var row = rows[i]; %>
+                
+			<!-- BEGIN content -->
+			<div id="content" class="np ac">
+				<!-- BEGIN inner content -->
+				<div class="content2">
+					<h2 class="title">Employment Application Form</h2>
+					
+					<div  class="ar" style="width:100%;display:inline-block">
+						<strong>Application Type:</strong>
+						<span><%= row.aa_type %></span>
+					</div>
+					<div class="al employee_from_wrap">
+						<strong class="content_title">Personal Data</strong>
+						<table class="al employee_form">
+							<colgroup>
+								<col width="235px" />
+								<col width="235px" />
+								<col width="235px" />
+								<col width="235px" />
+							</colgroup>
+							<tr>
+								<td>
+									<strong class="label_name">Position</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.ap_name %></span>
+									</div>	
+								</td>
+								<td colspan="2">
+									<strong class="label_name">Availability</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_availability %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">Expected Salary</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_exp_salary %></span>
+									</div>	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong class="label_name">Last Name</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_lname %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">First Name</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_fname %></span>
+									</div>		
+								</td>
+								<td>
+									<strong class="label_name">Middle Name</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_mname %></span>
+									</div>		
+								</td>
+								<td>
+									<strong class="label_name">Nickname</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_nname %></span>
+									</div>	
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									<strong class="label_name">Address</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_address %></span>
+									</div>	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong class="label_name">Home Number</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_home_num %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">Mobile Number</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_mob_num %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">E-mail Address 1</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_email1 %></span>
+									</div>
+								</td>
+								<td>
+									<strong class="label_name">E-mail Address 2</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_email2 %></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong class="label_name">Gender</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_gender %></span>
+									</div>	
+								</td>
+								<td colspan="2">
+									<strong class="label_name">Marital Status</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_marital_stat %></span>
+									</div>		
+								</td>
+								<td>
+									<strong class="label_name">Date of Birth</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_birthdate %></span>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="al employee_from_wrap">
+						<strong class="content_title">Educational Background</strong>
+						<table class="al employee_form">
+							<colgroup>
+								<col width="235px" />
+								<col width="235px" />
+								<col width="235px" />
+								<col width="235px" />
+							</colgroup>
+							<tr>
+								<td colspan="2">
+									<strong class="label_name">School</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_name %></span>
+									</div>	
+								</td>
+								<td colspan="2">
+									<strong class="label_name">Location</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_loc %></span>
+									</div>	
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<strong class="label_name">Course</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_course %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">Inclusive Dates</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_inc_date %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">Year Graduated</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_yr_grad %></span>
+									</div>	
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">
+									<strong class="label_name">Vocational/Technical/Associate Degree</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_voctec %></span>
+									</div>	
+								</td>
+								<td>
+									<strong class="label_name">Date Completed</strong>
+									<div class="app_content">
+										<span class="data_content"><%= row.aa_sch_date_comp %></span>
+									</div>	
+								</td>
+							</tr>
+						</table>
+					</div>
+                    
+                    <% if( row.aa_emp_data){ %>
+					<div class="al employee_from_wrap">
+						<strong class="content_title">Employment Data</strong>
+                        
+                        <% for(var e = 0; e < row.aa_emp_data.length; e++){ %>
+                        <% var emp = row.aa_emp_data[e];%>
+						<table class="al employee_form" style="margin-top:10px;border-bottom:2px solid #444;padding-bottom:10px">
+							<colgroup>
+								<col width="235px" />
+								<col width="235px" />
+								<col width="235px" />
+								<col width="235px" />
+							</colgroup>
+							<tr>
+								<td colspan="2">
+									<strong class="label_name">Total Years of Experience</strong>
+									<div class="app_content">
+										<p class="nm data_content">
+											<span><% if(emp.aa_yr_ex != ""){ %> <%= emp.aa_yr_ex %> <% }else{ %> <%="0"%>  <% } %></span><strong class="ml5">Year(s)</strong> -
+											<span><%= emp.aa_mon_ex %></span><strong class="ml5">Month</strong>
+										</p>
+									</div>	
+								</td>
+								<td colspan="2">
+									<strong class="label_name">Employment Period</strong>
+									<div class="app_content">
+										<p class="nm data_content">
+											<span><%= emp.aa_emp_to %></span> -
+											<span><%= emp.aa_emp_from %></span>
+										</p>
+									</div>	
+								</td>
+							</tr>
+                             
+							<tr>
+								<td colspan="3">
+									<strong class="label_name">Company</strong>
+									<div class="app_content">
+										<span class="data_content"><%= emp.aa_emp_company %></span>
+									</div>
+								</td>
+								<td>
+									<strong class="label_name">Position</strong>
+									<div class="app_content">
+										<span class="data_content"><%= emp.aa_emp_pos %></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									<strong class="label_name">Main Responsibility</strong>
+									<div class="app_content">
+										<span class="data_content"><%= emp.aa_emp_res %></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong class="label_name">Contact Number</strong>
+									<div class="app_content">
+										<span class="data_content"><%= emp.aa_emp_con_num %></span>
+									</div>
+								</td>
+								<td colspan="3">
+									<strong class="label_name">Address</strong>
+									<div class="app_content">
+										<span class="data_content"><%= emp.aa_emp_address %></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<strong class="label_name">Salary (Monthly Gross)</strong>
+									<div class="app_content">
+										<p class="data_content nm">
+											<strong class="mr5">Start</strong><span><%= emp.aa_emp_sal_start %></span> -
+											<strong class="mr5">Last</strong><span><%= emp.aa_emp_sal_end %></span>
+										</p>
+									</div>
+								</td>
+								<td colspan="2">
+									<strong class="label_name">Reason for Leaving</strong>
+									<div class="app_content">
+										<span class="data_content">Got bored</span>
+									</div>	
+								</td>
+							</tr>
+						</table>
+                        <% } %>
+					</div>
+                    <% } %>
+                    
+                    <% if( row.aa_skills_data ){ %>
+                    
+					<div class="al employee_from_wrap">
+						<strong class="content_title">Skills/Knowledge</strong>
+						<table class="al employee_form" cellpadding="3">
+							<colgroup>
+								<col width="150px" />
+								<col width="135px" />
+								<col width="135px" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Software</th>
+									<th>Years of Experience</th>
+									<th>Proficiency Level</th>
+								</tr>
+							</thead>
+                            
+                            <% for(var s = 0; s < row.aa_skills_data.length; s++){ %>
+                            <% var skill = row.aa_skills_data[s]; %>
+							<tr>
+								<th><label><%= skill.aa_skills_name %></label></th>
+								<td>
+									<span class="data_content"><%= skill.aa_skill_yr_exp %></span>
+								</td>
+								<td>
+									<span class="data_content"><%= skill.aa_skill_prof_lvl %></span>
+								</td>
+							</tr>
+                            <% } %>
+                           
+						</table>
+					</div>
+                    
+                    <% } %>
+                    
+                    
+                    <% if( row.aa_reference_data){ %>
+					<div class="al employee_from_wrap">
+						<strong class="content_title">Professional and Technical References</strong>
+						<p class="np info">List down individuals with personal knowledge of your skills and work ability</p>
+						<table class="al employee_form">
+							<colgroup>
+								<col width="200px" />
+								<col width="175px" />
+								<col width="175px" />
+								<col width="200px" />
+								<col width="200px" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Position/Title</th>
+									<th>Relationship</th>
+									<th>Company</th>
+									<th>Contact Info</th>
+								</tr>
+							</thead>
+                            <% if(row.aa_reference_data.reference_1){ %>
+                            <% var ref = row.aa_reference_data.reference_1; %>
+							<tr>
+								<td><span class="data_content"><%= ref.ref_name %></span></td>
+								<td><span class="data_content"><%= ref.ref_pos %></span></td>
+								<td><span class="data_content"><%= ref.ref_rel %></span></td>
+								<td><span class="data_content"><%= ref.ref_com %></span></td>
+								<td><span class="data_content"><%= ref.ref_contact %></span></td>
+							</tr>
+							<% } %>
+                            
+                            <% if(row.aa_reference_data.reference_2){ %>
+                            <% var ref = row.aa_reference_data.reference_2; %>
+							<tr>
+								<td><span class="data_content"><%= ref.ref_name %></span></td>
+								<td><span class="data_content"><%= ref.ref_pos %></span></td>
+								<td><span class="data_content"><%= ref.ref_rel %></span></td>
+								<td><span class="data_content"><%= ref.ref_com %></span></td>
+								<td><span class="data_content"><%= ref.ref_contact %></span></td>
+							</tr>
+							<% } %>
+                            
+                            <% if(row.aa_reference_data.reference_3){ %>
+                            <% var ref = row.aa_reference_data.reference_3; %>
+							<tr>
+								<td><span class="data_content"><%= ref.ref_name %></span></td>
+								<td><span class="data_content"><%= ref.ref_pos %></span></td>
+								<td><span class="data_content"><%= ref.ref_rel %></span></td>
+								<td><span class="data_content"><%= ref.ref_com %></span></td>
+								<td><span class="data_content"><%= ref.ref_contact %></span></td>
+							</tr>
+							<% } %>
+							
+						</table>
+					</div>
+                     <% } %>
+                    <!--
+					<ul class="print_hide control_buttons np nl">
+						<li><a href="#" class="btn_small btn_type_3s"><span>Print</span></a></li>
+						<li><a href="#" class="link_1 mt5 fl">Cancel</a></li>
+					</ul>
+                    -->
+					
+				</div>
+				<!-- END inner content -->
+			</div>
+			<!-- END content -->
+            
+            
+            
+<% }; %>
+		

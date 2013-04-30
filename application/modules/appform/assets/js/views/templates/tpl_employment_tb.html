@@ -1,0 +1,81 @@
+ <table class="al employee_form emp_tb" style="margin-top:10px;border-bottom:2px solid #444;padding-bottom:10px">
+                            <colgroup>
+                                <col width="235px">
+                                <col width="235px">
+                                <col width="235px">
+                                <col width="235px">
+                            </colgroup>
+                            <tbody><tr>
+                                <td colspan="2">
+                                    <label class="label_name">Total Years of Experience</label>
+                                    <div class="app_content ac employee_opt">
+                                        <ul class="opt_radio nl np">
+                                            <li><label class="mr5">Year</label><input name="emp_yr_ex[]" type="text" class="input_type_3 np"></li>
+                                            <li><label class="mr5">Month</label><input name="emp_mon_ex[]" type="text" class="input_type_3 np"></li>
+                                        </ul>
+                                    </div>	
+                                </td>
+                                <td colspan="2">
+                                    <label class="label_name">Employment Period</label>
+                                    <div class="app_content ac employee_opt">
+                                        <ul class="opt_radio nl np">
+                                            <li><label class="mr5">From</label><input name="emp_from[]" id="emp_form_<%= idx %>"  type="text" class="input_type_3 np" readonly="readonly"></li>
+                                            <li><label class="mr5">To</label><input name="emp_to[]"  id="emp_to_<%= idx %>"  type="text" class="input_type_3 np" readonly="readonly"></li>
+                                        </ul>
+                                    </div>	
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label class="label_name">Company</label>
+                                    <div class="app_content ">
+                                        <input name="emp_company[]" type="text" class="input_type_5 nm">
+                                    </div>	
+                                </td>
+                                <td>
+                                    <label class="label_name">Position</label>
+                                    <div class="app_content">
+                                        <input name="emp_pos[]" type="text" class="input_type_5 nm">
+                                    </div>	
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label class="label_name">Main Responsibility</label>
+                                    <div class="app_content">
+                                        <input name="emp_res[]" type="text" class="input_type_5 nm">
+                                    </div>	
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="label_name">Contact Number</label>
+                                    <div class="app_content">
+                                        <input name="emp_con_num[]" type="text" class="input_type_5 nm">
+                                    </div>	
+                                </td>
+                                <td colspan="3">
+                                    <label class="label_name">Address</label>
+                                    <div class="app_content">
+                                        <input name="emp_address[]" type="text" class="input_type_5 nm">
+                                    </div>	
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label class="label_name">Salary (Monthly Gross)</label>
+                                    <div class="app_content ac employee_opt">
+                                        <ul class="opt_radio nl np">
+                                            <li><label class="mr5">Start</label><input name="emp_sal_start[]" type="text" class="input_type_3 np"></li>
+                                            <li><label class="mr5">Last</label><input name="emp_sal_last[]" type="text" class="input_type_3 np"></li>
+                                        </ul>
+                                    </div>	
+                                </td>
+                                <td colspan="2">
+                                    <label class="label_name">Reason for Leaving</label>
+                                    <div class="app_content">
+                                        <input name="emp_res_leaving[]" type="text" class="input_type_5 nm">
+                                    </div>	
+                                </td>
+                            </tr>
+                        </tbody></table>

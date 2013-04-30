@@ -1,0 +1,65 @@
+/* setting background for buttons */
+.btn, .btn span {height:32px;background:url(../images/btn_bg.png) no-repeat 0 0;}
+.btn_small, .btn_small span {height:26px;background:url(../images/btn_bg_small.png) no-repeat 0 0;}
+/* 
+	.btn_div - used to contain buttons in popup / dialog box
+	.btn_space - give space in between buttons 
+*/
+.btn_div {margin:30px 10px 10px;text-align:center;}
+.btn_space {margin-right:30px;}
+
+/* regular button */
+.btn_type_1,.btn_type_2,.btn_type_3, .btn_type_1s,.btn_type_2s,.btn_type_3s {display:inline-block;padding-left:10px;background-position:0 0;text-decoration:none;}
+.btn_type_1 span,.btn_type_2 span,.btn_type_3 span, .btn_type_1s span,.btn_type_2s span,.btn_type_3s span {display:inline-block;height:24px;padding-top:8px;padding-right:10px;text-align:center;color:#555555;font-weight:bold;background-position:right -32px;}
+.btn_type_1:hover {background-position:0 -69px;}
+.btn_type_1 span:hover, .btn_type_1:hover span {background-position:right -101px;}
+
+.btn_type_2 {background-position:0 -138px;}
+.btn_type_2 span {background-position:right -170px;}
+.btn_type_2:hover {background-position:0 -207px;}
+.btn_type_2 span:hover, .btn_type_2:hover span {background-position:right -239px;}
+
+.btn_type_3 {background-position:0 -276px;}
+.btn_type_3 span {background-position:right -308px;color:#fff;}
+.btn_type_3:hover {background-position:0 -345px;}
+.btn_type_3 span:hover, .btn_type_3:hover span {background-position:right -377px;}
+
+/* smaller button */
+.btn_type_1s span,.btn_type_2s span,.btn_type_3s span {height:21px;padding-top:5px;background-position:right -26px;}
+.btn_type_1s:hover {background-position:0 -57px;}
+.btn_type_1s span:hover, .btn_type_1s:hover span {background-position:right -83px;}
+
+.btn_type_2s {background-position:0 -114px;}
+.btn_type_2s span {background-position:right -140px;}
+.btn_type_2s:hover {background-position:0 -171px;}
+.btn_type_2s span:hover, .btn_type_2s:hover span {background-position:right -197px;}
+
+.btn_type_3s {background-position:0 -228px;}
+.btn_type_3s span {background-position:right -254px;color:#fff;}
+.btn_type_3s:hover {background-position:0 -285px;}
+.btn_type_3s span:hover, .btn_type_3s:hover span {background-position:right -311px;}
+
+/* link button */
+.link_1 {text-decoration:underline;color:#0070c0;}
+
+/* close button*/
+.btn_close {display:block;width:22px;height:22px;background:url(../images/btn_close.gif) no-repeat 0 0}
+.btn_close span, .btn_export span {display:none;}
+
+/* export button*/
+.btn_export {display:block;width:51px;height:52px;background:url(../images/btn_export.png) no-repeat 0 0}
+
+/* VMD buttons */
+.btn_vmd {display:inline-block;width:25px;height:21px;padding-top:4px;background:url(../images/btn_vmd.gif) no-repeat 0 0;text-align:center;text-decoration:none;}
+.btn_vmd:hover {text-decoration:underline;font-weight:bold;}
+.btn_vmd_1 {color:#996633;}
+.btn_vmd_1:hover {background-position:0 -31px;color:#996633;}
+.btn_vmd_2 {background-position:0 -63px;color:#5d7731;}
+.btn_vmd_2:hover {background-position:0 -94px;color:#5d7731;}
+.btn_vmd_3 {background-position:0 -126px;color:#42788e;}
+.btn_vmd_3:hover {background-position:0 -157px;color:#42788e;}
+
+/* popup */
+.popup_wrap {background:url(../images/shade.png) repeat 0 0;border-radius:10px;padding:10px;}
+.popup_wrap .popup {background-color:#fff;border-radius:10px;padding:5px 5px 15px 20px;}
+.popup_wrap .popup form {padding:15px 0 0 15px;}

@@ -1,0 +1,38 @@
+/* form */
+.table_form  {border-collapse:collapse}
+.table_form td {padding:5px 0;color:#555}
+.table_form th {vertical-align:middle}
+.table_form th, .table_form label {text-align:left;color:#444}
+
+.opt_radio li {float:left;margin:0 10px 0 0}
+.radio_type_1 {margin:0 0 0 5px;vertical-align:bottom}
+
+.input_type_1 {width:165px;padding:2px 5px;border:1px solid #acacac}
+.input_type_2 {width:305px;padding:2px 5px;border:1px solid #acacac}
+.input_type_3 {width:90px;margin:0 10px 0 0;padding:2px 5px;border:1px solid #acacac}
+.input_required {border:1px solid #ff0000 !important}
+
+.textarea_1 {width:180px;height:80px;resize:none}
+.textarea_2 {width:315px;height:180px;resize:none}
+
+.select_type_1 {width:180px;margin:0 10px 0 0}
+.select_type_2 {width:80px;margin:0 10px 0 0}
+.select_type_3 {width:320px}
+
+.control_buttons {display:inline-block;margin:20px auto}
+.control_buttons li {float:left;margin:0 10px 0 0}
+
+#login_box {width:auto;display:inline-block;padding:10px 15px;border:1px solid #555\9;box-shadow:#555 0 0 3px 0;}
+#login_box .login_input label {width:80px;display:inline-block}
+*:first-child+html #login_box  {width:440px;margin:0}
+*:first-child+html .login_input {width:375px;margin:0}
+#login_box h1.title {width:100%;padding:5px 0;color:#fff;font-size:14px;text-transform:uppercase;font-weight:normal;background-color:#555}
+.login_input {display:inline-block}
+.login_input li {float:left;width:180px;margin:0 5px 5px 0;padding:0;text-align:left;display:inline}
+.btn_signin  {display:inline-block;margin:27px 0 0;padding:3px 5px;box-shadow:#555 0 0 3px 0;background-color:#555;color:#fff}
+
+
+/* error/notice/warning */
+.message_type1 {margin:0 10px;color:#ff0000;display:inline-block}
+.message_type2 {margin:5px 10px 0;color:#ff0000;display:inline-block}
+.message_type3 {margin:0 10px;color:#04bb04;display:inline-block}

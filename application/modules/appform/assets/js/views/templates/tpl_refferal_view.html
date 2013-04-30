@@ -1,0 +1,41 @@
+<% for(var i = 0; i < rows.length; i++){ %>
+   <% var row = rows[i]; %>
+
+<!-- BEGIN inner content -->
+				<div id="content" class="content2" style="height:50%;width:900px;">
+					
+					<div class="fl mt10 al employee_from_wrap" style="border:0;">
+                    <p style="font-weight:bold;">Refferal id : <%= row.aa_idx %></p>
+                    
+                    <% for(var e = 0; e < row.aa_refferal_data.length; e++){ %>
+                        <% var refferal = row.aa_refferal_data[e];%>
+						<table class="mr10 fl al employee_form" border="0">
+							<colgroup>
+								<col width="100px" />
+								<col width="200px" />
+							</colgroup>
+							<tr>
+								<th>Name</th>
+								<td><%= refferal.aa_refferal_name %></td>
+							</tr>
+							<tr>
+								<th>Contact #</th>
+								<td><%= refferal.aa_refferal_con_num %></td>
+							</tr>
+							<tr>
+								<th>Email Add:</th>
+								<td><%= refferal.aa_refferal_email %></td>
+							</tr>
+							<tr>
+								<th>Position</th>
+								<td><%= refferal.aa_refferal_position %></td>
+							</tr>
+						</table>
+                        <% } %>
+					
+					
+						
+					</div>
+				</div>
+				<!-- END inner content -->
+    <% } %>

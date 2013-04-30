@@ -1,0 +1,12 @@
+/* import individual css here*/
+
+
+/*CATEGORY_MANAGEMENT*/
+.category_container{display:inline-block;width:100%;}
+/*1ST_SLIDE*/
+.category_mgmt_top_btns, .category_mgmt_bottom_btns {display:inline-block;width:100%}
+.category_mgmt_container{display:inline-block;width:100%;margin:20px 0 20px 0;padding:20px 0 20px 0;border-top:2px solid #888;border-bottom:2px solid #888}
+/*CATEGORY_SIDE*/
+.filter_container{display:inline-block;width:200px}
+.pagination_side{display:inline-block;width:200px !important}
+/*END_CATEGORY_MANAGEMENT*/

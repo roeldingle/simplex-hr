@@ -1,0 +1,12 @@
+<% for(var i = 0; i < rows.length; i++){ %>
+<% var row = rows[i]; %>
+<tr>
+    <td><input type="checkbox" /></td>
+    <td><%= row.index %></td>
+    <td><a href="#" class="view_application" id="<%= row.aa_idx %>" ><%= row.aa_fname %> <%= row.aa_mname %> <%= row.aa_lname %></a></td>
+    <td><%= row.ap_name %></td>
+    <td><a href="#" class="btn_vmd btn_vmd_1">V</a></td>
+    <td><%= row.aa_date_applied %></td>
+</tr>
+<% }; %>
+							

@@ -1,0 +1,61 @@
+/* breadcrumbs */
+.breadcrumbs {display:block;margin:0 0 10px 0}
+.breadcrumbs .main {margin-right:5px}
+
+/* table_01 */
+.table_01 {width:100%;margin:10px 0 10px 0;}
+.table_01 th {padding:10px 0 10px 10px;background:#DBDBDB;color:#000}
+.table_01 td {padding:10px 0 10px 10px;border-bottom:2px solid #fff;background:#f2f2f2;color:#000}
+.table_01 .orderby_up , .table_02 .orderby_up{color:#000;padding-right:15px;width:10px;height:11px;background:url(../images/orderby_up.png) no-repeat right center}
+.table_01 .orderby_down, .table_02 .orderby_down {color:#000;padding-right:15px;width:10px;height:10px;background:url(../images/orderby_down.png) no-repeat right center}
+
+/* table_02 */
+.table_02 {width:100%;margin:10px 0 10px 0;}
+.table_02 th {padding:10px 0 10px 10px;background:#DBDBDB;color:#000;border-bottom:3px solid #fff;border-right:1px solid #fff;}
+.table_02 td {padding:10px 0 10px 10px;border-bottom:2px solid #fff;border-right:1px solid #fff;background:#f2f2f2;color:#000}
+.table_02 thead .last {border-right:1px solid #DBDBDB}
+.table_02 tbody .last {border-right:1px solid #f2f2f2}
+
+/* search_01 */
+.search_01 { margin:0 0 10px 0}
+.search_01 label, input {vertical-align:center}
+.input_type_4 { border:1px solid #ACACAC; padding:2px 0; width:150px;}
+
+/* search_02 */
+.search_02 { background:#DBDBDB;width:680px;padding:10px;margin:10px 0 10px 0}
+.search_02 .holder {float:left;margin:0 10px 0 0}
+.search_02 label {width:100px;display:inline-block;color:#000}
+.search_02 .holder_2 {margin:0 10px 10px 0;display:block;}
+.search_02 .calendar_icon {position:relative;top:4px}
+
+
+/*pagination*/
+.pagination{display:inline-block;width:700px;margin:10px 0 0 0;padding:0;text-align:center}
+.pagination ul{display:inline-block;margin:0 auto;padding:0;list-style:none;}
+.pagination ul li{float:left;text-align:center;margin:0 0 0 5px;padding:0}
+.pagination ul li.first{margin:0}
+.pagination ul li a{display:block;padding:0 3px;font-size:11px !important;line-height:13px;}
+.pagination ul li a:hover{background-color:#eaeaea}
+.pagination ul li a.current{background-color:#969797 !important;color:#FFF}
+.pagination ul li a.inactive{color:#c9c7c7 !important}
+.pagination ul li a.inactive:hover{color:#c9c7c7 !important;background-color:#fff !important;cursor:default}
+.pagination.center {text-align: center;}
+.pagination ul {display: -moz-inline-box; /* FF2 or lower */display: inline-block;/* IE6/7 inline-block hack */*display: inline;*zoom: 1;}
+
+/* box_1 */
+
+.box_1 {width:250px;padding:0 0 10px 5px;margin:10px 0 0 0;border:1px solid #DBDBDB}
+.box_1 form {margin-bottom:10px}
+.box_1 label {color:#000}
+.box_1 .box_1_title {padding:10px 0 10px 0;color:#000;font-weight:bold}
+
+/* show rows */
+.show_rows {position:relative;width:100%;}
+.show_rows form {position:absolute;right:0}
+
+.sort_view {float:left;width:700px;margin:5px 0 10px 0;display:inline;}
+.sort_view li {float:left;margin-right:10px;padding-left:10px;background: url(../images/sep_comment.gif) no-repeat 0 2px}
+.sort_view li.all {background:none;padding-left:0}
+.sort_view li.active {font-weight:bold}
+.sort_view a:hover {color:#353535;text-decoration:underline}
+.statTab {border:1px solid #535353;float:left;width:9px;height:9px;padding:0;margin:0;}

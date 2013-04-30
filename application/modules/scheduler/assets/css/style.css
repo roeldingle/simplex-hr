@@ -1,0 +1,6 @@
+.ui-datepicker-today a{background:#D7462C !important;color:#fff !important;}
+.ui-datepicker-unselectable,.ui-state-disabled,.hol_day span{background:#FF9966 !important;color:red !important;font-weight:bold !important}
+.ui-datepicker {width:17.5em !important}
+.ui-state-active{color:#D7462C !important;}
+.ui-datepicker .ui-datepicker-title select {font-size: 0.85em !important;}
+.username_login {color:red !important;font-size:12px !important;display:block !important;margin:5px 0 0 0 !important}

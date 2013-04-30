@@ -1,0 +1,37 @@
+.stripe{
+background-color: #f3f3f3;
+}
+
+th.header { 
+    background-image: url(../images/bg.gif);     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: 10px center; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7;    
+    margin-left: 10px; 
+}
+
+
+th.headerSortUp { 
+    background-image: url(../images/asc.gif); 
+    background-color: #3399FF; 
+} 
+
+th.headerSortDown  { 
+    background-image: url(../images/desc.gif); 
+    background-color: #3399FF; 
+} 
+
+.choosen{
+    background-color: #FAEBD7 !important; 
+}
+.choosen_one{
+    background-color: #fff !important; 
+
+}
+
+.admin-page-link{float:right;background-image: url(../images/desc.gif);height:100px;width:100px; }
+.btn_adminpage {padding:8px 20px 10px;border-radius:0 0 10px 10px;font-size:14px;background-color:#111;color:#fff;box-shadow:0 0 5px #888}
+.btn_adminpage:hover {background-color:#000;color:#fff;box-shadow:0 0 5px #f7a506}
